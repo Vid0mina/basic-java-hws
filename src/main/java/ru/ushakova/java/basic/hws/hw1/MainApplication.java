@@ -30,7 +30,7 @@ public class MainApplication {
         int data = 10;
         if (data <= 10) {
             System.out.println("Красный");
-        } else if (data > 10 && data <= 20) {
+        } else if (data <= 20) {
             System.out.println("Желтый");
         } else if (data > 20) {
             System.out.println("Зеленый");
@@ -47,7 +47,7 @@ public class MainApplication {
         if (increment == true) {
             System.out.println(initValue += delta);
         } else {
-            initValue -= delta;
+            System.out.println(initValue -= delta);
         }
     }
 
@@ -72,8 +72,7 @@ public class MainApplication {
     }
 
     public static int getRandomNumber() {
-        int rnd = (int) (Math.random() * 20) + 1;
-        return rnd;
+        return (int) (Math.random() * 20) + 1;
     }
 
 }
