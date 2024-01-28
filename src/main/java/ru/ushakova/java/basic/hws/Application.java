@@ -17,24 +17,23 @@ public class Application {
     }
 
     private static void compareArrayParts(int... arr) {
-
         int leftSum = 0;
-        for (int i = 0; i < arr.length / 2; i++) {
-            leftSum += arr[i];
-        }
         int rightSum = 0;
-        for (int i = arr.length / 2; i < arr.length; i++) {
-            rightSum += arr[i];
+
+        for (int i = 0; i < arr.length; i++) {
+            if (i < arr.length / 2) {
+                leftSum += arr[i];
+            } else {
+                rightSum += arr[i];
+            }
         }
         if (leftSum > rightSum) {
             System.out.println("\n(5)Метод " + new Exception().getStackTrace()[0].getMethodName() + ". Сумма левой части больше правой.");
-        }
-        if (leftSum < rightSum) {
+        } else if (leftSum < rightSum) {
             System.out.println("\n(5)Метод " + new Exception().getStackTrace()[0].getMethodName() + ". Сумма правой части больше левой.");
         } else {
             System.out.println("\n(5)Метод " + new Exception().getStackTrace()[0].getMethodName() + ". Суммы половин равны.");
         }
-
     }
 
     private static void increaseArrayWithNumber(int[] arr, int increment) {
@@ -61,9 +60,9 @@ public class Application {
         System.out.println("\n(2)Метод " + new Exception().getStackTrace()[0].getMethodName() + ". Сумма = " + sum);
     }
 
-    private static void repeatLine(String line, int i) {
+    private static void repeatLine(String line, int repeatNumber) {
         System.out.println("(1)Метод " + new Exception().getStackTrace()[0].getMethodName());
-        for (int k = 0; k <= i; k++) {
+        for (int k = 0; k < repeatNumber; k++) {
             System.out.println(line);
         }
     }
