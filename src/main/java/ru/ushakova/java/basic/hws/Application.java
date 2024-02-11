@@ -1,18 +1,10 @@
 package ru.ushakova.java.basic.hws;
 
-import java.util.Arrays;
-
 public class Application {
     public static void main(String[] args) {
 
-        int[][] arr = {
-                {2, -1},
-                {1, 1}
-        };
-        int[][] mass = {
-                {2, -1, 7},
-                {1, 1, 9}
-        };
+        int[][] arr = {{2, -1}, {1, 1}};
+        int[][] mass = {{2, -1, 7}, {1, 1, 9}};
 
         sumOfPositiveElements(arr);
         drawingSquare(8);
