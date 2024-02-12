@@ -26,7 +26,7 @@ public class Application {
             Integer currentYear = Year.now().getValue();
             Integer birthYear = user.getBirthYear();
             if (currentYear - birthYear > 40) {
-                //System.out.println(user.showInfo());
+                System.out.println(user.showUserInfo());
             }
         }
 

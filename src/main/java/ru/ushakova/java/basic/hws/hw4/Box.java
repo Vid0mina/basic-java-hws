@@ -58,11 +58,11 @@ public class Box {
         if (isOpen) {
             if (this.stuff != null) {
                 this.stuff = null;
+                System.out.println("Предмет извлечён. Коробка теперь пуста.");
             } else {
                 System.out.println("Нечего выкидывать. Коробка уже пуста.");
             }
         }
-        System.out.println("Предмет извлечён. Коробка теперь пуста.");
     }
 
     public String showBoxInfo() {
