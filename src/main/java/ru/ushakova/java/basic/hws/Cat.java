@@ -27,7 +27,7 @@ public class Cat {
 
     public void eat(Plate plate) {
         if (isHungry) {
-            if (plate.reduceFood(4)) {
+            if (plate.reduceFood(appetite)) {
                 isHungry = false;
                 System.out.println(name + " поел.");
             } else System.out.println(name + " не поел.");

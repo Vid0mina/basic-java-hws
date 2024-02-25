@@ -24,9 +24,15 @@ public class Plate {
 
     public Boolean reduceFood(Integer amount) {
         if ((currentFoodAmount != null && currentFoodAmount > 0) && (amount != null && amount > 0)) {
-            currentFoodAmount -= amount;
+            if (currentFoodAmount >= amount) {
+                currentFoodAmount -= amount;
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
         }
-        return currentFoodAmount >= 0;
     }
 
     public void info() {
