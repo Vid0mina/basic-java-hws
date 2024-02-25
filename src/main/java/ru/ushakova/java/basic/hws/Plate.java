@@ -29,4 +29,8 @@ public class Plate {
         return currentFoodAmount >= 0;
     }
 
+    public void info() {
+        System.out.println("В тарелке осталось " + this.currentFoodAmount + " еды.");
+    }
+
 }

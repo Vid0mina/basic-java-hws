@@ -5,10 +5,10 @@ public class Application {
     public static void main(String[] args) {
         Plate plate = new Plate(10);
         Cat[] cats = {
-                new Cat("Салем"),
-                new Cat("Пушок"),
-                new Cat("Матроскин"),
-                new Cat("Кузя")
+                new Cat("Салем", 2),
+                new Cat("Пушок", 1),
+                new Cat("Матроскин", 8),
+                new Cat("Кузя", 4)
         };
 
         cats[1].setAppetite(false);

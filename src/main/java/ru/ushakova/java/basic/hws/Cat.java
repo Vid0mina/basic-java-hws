@@ -4,10 +4,12 @@ public class Cat {
 
     protected String name;
     protected Boolean isHungry;
+    protected Integer appetite;
 
-    public Cat(String name) {
+    public Cat(String name, Integer appetite) {
         this.name = name;
         this.isHungry = true;
+        this.appetite = appetite;
     }
 
     public String getName() {
