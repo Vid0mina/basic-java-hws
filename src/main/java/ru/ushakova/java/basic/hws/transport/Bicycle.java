@@ -4,7 +4,8 @@ import ru.ushakova.java.basic.hws.movement.Movement;
 
 public class Bicycle implements Movement {
     @Override
-    public void move(Integer distance, String typeTerrain) {
+    public Boolean move(Integer distance, String typeTerrain) {
+        return true;
 
     }
 
