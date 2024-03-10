@@ -1,23 +1,30 @@
 package ru.ushakova.java.basic.hws.transport;
 
-import ru.ushakova.java.basic.hws.movement.Movement;
+import ru.ushakova.java.basic.hws.enumerated.Terrain;
 
-public class AllTerrainVehicle implements Movement {
+public class AllTerrainVehicle extends Transport {
 
-    protected Integer fuel;
-
-    public Integer getFuel() {
-        return fuel;
-    }
-
-    public void setFuel(Integer fuel) {
-        this.fuel = fuel;
+    public AllTerrainVehicle(String transportName, Integer power) {
+        super(transportName, power);
     }
 
     @Override
-    public Boolean move(Integer distance, String typeTerrain) {
-        return true;
-
+    public Boolean move(Integer distance, Terrain terrain) {
+        Boolean result = power >= distance;
+        if (result) {
+            switch (terrain) {
+                case DENSE_FOREST, SWAMP, PLAIN:
+                    power = power - distance;
+                    System.out.println("Сил осталось " + power + ". Вездеход проехал " + distance);
+                    break;
+                default:
+                    System.out.println("Вездеход не проедет.");
+                    break;
+            }
+        } else {
+            System.out.println("Недостаточно топлива.");
+        }
+        return result;
     }
 
 }
