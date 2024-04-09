@@ -26,8 +26,8 @@ public class Employee {
         if (employees == null || employees.isEmpty())
             throw new RuntimeException("На вход пришёл пустой объект/список.");
         List<String> names = new ArrayList<>();
-        for (int i = 0; i < employees.size(); i++) {
-            names.add(employees.get(i).getName());
+        for (Employee emp:employees) {
+            names.add(emp.getName());
         }
         System.out.println(names);
         return names;
@@ -36,28 +36,30 @@ public class Employee {
     public static List<Employee> compareAge(List<Employee> employees, int minAge) {
         if (employees == null || employees.isEmpty())
             throw new RuntimeException("На вход пришёл пустой объект/список.");
+        List<Employee> sortedEmployees = new ArrayList<>();
 
-        for (int i = 0; i < employees.size(); i++) {
-            int age = employees.get(i).getAge();
+        for (Employee emp:employees) {
+            int age = emp.getAge();
             if (age >= minAge) {
-                System.out.println(employees.get(i));
+                sortedEmployees.add(emp);
+                System.out.println(emp);
             }
         }
-        return employees;
+        return sortedEmployees;
     }
 
-    public static Integer checkAvgAge(List<Employee> employees, int avgAge) {
-        int sum = 0;
-        for (int i = 0; i < employees.size(); i++) {
-            int age = employees.get(i).getAge();
-            sum += age;
+    public static boolean checkAvgAge(List<Employee> employees, double avgAge) {
+        double sum = 0;
+        for (Employee emp:employees) {
+            sum += emp.getAge();
         }
-        int result = sum / employees.size();
+        double result = sum / employees.size();
         if (result > avgAge) {
             System.out.println("Средний возраст сотрудников " + result + " превышает указанный аргумент " + avgAge + ".");
+            return true;
         } else
             System.out.println("Средний возраст сотрудников " + result + " НЕ превышает указанный аргумент " + avgAge + ".");
-        return result;
+        return false;
     }
 
     public static Employee getYoungestEmployee(List<Employee> employees) {
