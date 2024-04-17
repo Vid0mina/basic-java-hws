@@ -1,0 +1,165 @@
+INFO  2024-04-17 20:44:45 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод StackTraceElement[]
+INFO  2024-04-17 20:44:45 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод StackTraceElement[]
+INFO  2024-04-17 20:46:48 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 20:46:48 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 20:47:36 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 20:47:36 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 20:50:04 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - [2, 2, 2]
+INFO  2024-04-17 20:50:04 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 20:50:04 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - false
+INFO  2024-04-17 20:50:04 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 20:50:52 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 20:50:52 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 20:50:52 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - false
+INFO  2024-04-17 20:50:52 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 20:51:37 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 20:51:37 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 20:51:37 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - Массив не соответсвует ожидаемому шаблону false
+INFO  2024-04-17 20:51:37 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 20:52:06 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 20:52:06 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 20:52:06 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 20:52:06 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 21:31:32 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 21:31:32 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:21:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:21:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:21:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:21:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:21:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:22:16 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:22:16 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:22:16 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:22:16 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:22:16 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:23:51 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:23:51 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:23:51 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:23:51 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:23:51 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:26:57 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:26:57 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:26:57 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:26:57 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:26:57 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:27:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:27:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:27:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:27:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:27:10 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:72) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:27:46 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:47:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:47:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:47:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:47:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 22:48:02 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:48:02 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:48:02 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:48:02 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 22:48:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:48:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:48:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:48:42 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 22:48:56 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:48:56 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:48:56 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:48:56 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 22:52:21 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:52:21 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:52:21 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:52:21 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 22:53:17 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:53:17 [main] ru.ushakova.java.basic.hws.Application (Application.java:21) - Отработал метод returnArr
+INFO  2024-04-17 22:53:17 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:53:17 [main] ru.ushakova.java.basic.hws.Application (Application.java:23) - Отработал метод checkOneTwo
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:68) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:53:22 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:70) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:70) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:70) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:70) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:61) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2]
+WARN  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 22:59:13 [main] ru.ushakova.java.basic.hws.Application (Application.java:45) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2]
+WARN  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:00:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2]
+WARN  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:01:58 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2]
+WARN  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2]
+WARN  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:11:27 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 23:11:28 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:11:28 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:69) - Результат соответсвия массива шаблону true
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:60) - Результат соответсвия массива шаблону false
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2]
+WARN  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+ERROR 2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:41) - В массиве не найдено ни одной единицы.
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2]
+WARN  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+WARN  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:34) - Копировать нечего.
+INFO  2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:44) - Результат копирования [2, 2, 2]
+ERROR 2024-04-17 23:13:53 [main] ru.ushakova.java.basic.hws.Application (Application.java:41) - В массиве не найдено ни одной единицы.
