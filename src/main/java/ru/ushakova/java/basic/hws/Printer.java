@@ -22,8 +22,9 @@ public class Printer {
                     break;
             }
             flag = true;
+            notifyAll();
         }
-        notifyAll();
+
         try {
             if (flag && cnt == 4 && currentPriority == 1) {
                 return true;
