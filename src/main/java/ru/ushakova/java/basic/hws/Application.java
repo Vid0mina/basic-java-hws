@@ -12,14 +12,12 @@ public class Application {
     public static void main(String[] args) {
 
         int[] array = {1, 2, 1, 2, 2};
-        int[] array2 = {1, 1, 1, 1, 1};
-        int[] array4 = {1, 1, 1, 1, 1, 1};
-        int[] array3 = {1, 2, 1, 2, 2, 2};
-        int[] array5 = {2, 2, 2, 2, 2, 2};
 
-        returnArr(array3);
+        int[] array1 = {1, 2, 1, 2, 2, 2};
+
+        returnArr(array1);
         logger.info("Отработал метод returnArr");
-        checkOneTwo(array5);
+        checkOneTwo(array);
         logger.info("Отработал метод checkOneTwo");
     }
 
