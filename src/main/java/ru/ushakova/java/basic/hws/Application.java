@@ -25,7 +25,6 @@ public class Application {
 
         System.out.println(pd.isEmployee(1L));
         System.out.println(pd.isManager(person));
-
     }
 
 }
