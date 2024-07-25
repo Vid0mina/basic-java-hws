@@ -2,20 +2,20 @@ package ru.ushakova.java.basic.hws.fruit;
 
 public abstract class Fruit {
 
-    protected float weightOfOneFruit;
+    protected float weight;
 
     public Fruit(float weight) {
-        this.weightOfOneFruit = weight;
+        this.weight = weight;
     }
 
     public float getWeightOfOneFruit() {
-        return weightOfOneFruit;
+        return weight;
     }
 
     @Override
     public String toString() {
         return "Fruit" +
-                " weight=" + weightOfOneFruit;
+                " weight=" + weight;
     }
 
 }

@@ -17,8 +17,7 @@ public class Application {
         appleBox.pourFruit(diffFruit);
 
         System.out.println(diffFruit);
-        System.out.println(diffFruit.compare(orangeBox));
-
+        System.out.println(diffFruit.compare(appleBox));
     }
 
 }
