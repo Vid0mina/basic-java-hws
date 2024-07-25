@@ -27,11 +27,17 @@ public class PersonDataBase {
             new Person("Barsik", Position.SENIOR_MANAGER, 11L),
             new Person("Bagira", Position.BRANCH_DIRECTOR, 8L)
     ));
+    Map<Long, Person> personMap = new HashMap<>(Map.of(
+            1L, new Person("Murzik", Position.JUNIOR_DEVELOPER),
+            2L, new Person("Pushok", Position.QA),
+            7L, new Person("Musya", Position.DIRECTOR),
+            11L, new Person("Barsik", Position.SENIOR_MANAGER),
+            8L, new Person("Bagira", Position.BRANCH_DIRECTOR)
+    ));
 
     Person findById(@NonNull Long id) {
-        for (Person p : personSet) {
-            if (p.getId().equals(id)) return p;
-
+        for (Map.Entry<Long, Person> entry : personMap.entrySet()) {
+            if (entry.getKey().equals(id)) return entry.getValue();
         }
         return null;
     }

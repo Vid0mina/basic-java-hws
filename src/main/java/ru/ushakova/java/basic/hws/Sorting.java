@@ -7,7 +7,7 @@ public class Sorting {
     public static int[] bubbleSort(@NonNull int[] array) {
         boolean flag = true;
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length - 1; j++) {
+            for (int j = 0; j < array.length - i - 1; j++) {
                 if (array[j] > array[j + 1]) {
                     flag = true;
                     int buffer = array[j];
@@ -21,15 +21,13 @@ public class Sorting {
     }
 
     public static void quickSort(int[] array, int leftIdx, int rightIdx) {
-        if (array.length == 0 || leftIdx >= rightIdx) return;
+        if (leftIdx >= rightIdx) return;
 
         int idx = (leftIdx + rightIdx) / 2;
-        int leftPart = leftIdx;
-        int rightPart = rightIdx;
         int pivot = array[idx];
         int buffer = 0;
 
-        int i = leftPart, j = rightPart;
+        int i = leftIdx, j = rightIdx;
         while (i <= j) {
             while (array[i] < pivot) i++;
             while (array[j] > pivot) j--;
