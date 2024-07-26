@@ -2,7 +2,8 @@ package ru.ushakova.java.basic.hws;
 
 import java.util.Arrays;
 
-import static ru.ushakova.java.basic.hws.Sorting.*;
+import static ru.ushakova.java.basic.hws.Sorting.bubbleSort;
+import static ru.ushakova.java.basic.hws.Sorting.quickSort;
 
 public class Application {
 
@@ -18,7 +19,7 @@ public class Application {
         System.out.println("\nПузырёк: " + Arrays.toString(bubbleSort(arr)));
 
         PersonDataBase pd = new PersonDataBase();
-        System.out.println(pd.findById(1L));
+        System.out.println("Поиск по идентификатору: " + pd.findById(1L));
 
         Person person = new Person("Kuzya", Position.BRANCH_DIRECTOR, 8L);
         pd.add(person);

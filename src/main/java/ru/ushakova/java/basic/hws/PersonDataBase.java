@@ -36,8 +36,8 @@ public class PersonDataBase {
     ));
 
     Person findById(@NonNull Long id) {
-        for (Map.Entry<Long, Person> entry : personMap.entrySet()) {
-            if (entry.getKey().equals(id)) return entry.getValue();
+        if (personMap.containsKey(id)) {
+            return personMap.get(id);
         }
         return null;
     }
