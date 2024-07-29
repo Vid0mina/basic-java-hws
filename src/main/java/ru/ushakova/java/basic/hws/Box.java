@@ -19,7 +19,7 @@ public class Box<T extends Fruit> {
     }
 
     public float weight() {
-        return fruits.size() == 0 ? 0.0f : fruits.size() * fruits.get(0).getWeightOfOneFruit();
+        return fruits.size() == 0 ? 0.0f : fruits.size() * fruits.get(0).getWeight();
     }
 
     public void addFruit(T... fruits) {
